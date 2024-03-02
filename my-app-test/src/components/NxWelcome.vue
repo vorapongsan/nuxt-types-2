@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { useTest } from '#imports';
 import { test, testMe } from 'services';
 
 defineProps<{
